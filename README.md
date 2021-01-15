@@ -5,10 +5,11 @@ The application must expose restful endpoints that will parse data (passed in th
 
 ## Technology stack
 
-•	Node.js
-•	TypeScript
-•	Express
-
+* Node.js
+* TypeScript
+* Express
+* Mocha
+* Chai
 
 ## Available scripts
 
@@ -19,7 +20,7 @@ Run the following command in the root direcotry of the project to install node m
 
 ### Starging Dev Server
 
-Run tehf ollowing command to start the development server
+Run the following command to start the development server
 
 `npm run start`
 
@@ -28,3 +29,9 @@ Run tehf ollowing command to start the development server
 Run the following command to generate build folder
 
 `npm run build`
+
+### Run Unit Test Cases
+
+Run the following command to run unit test cases
+
+`npm run test`
